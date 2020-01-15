@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MMD exepsion</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+
+    <!-- font -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=brick-sign">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        h2 {
+            font-family: "Lobster", Sans-serif;
+            color: azure;
+        }
+
+        button {
+            margin: 30px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #buttons_container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body style="background-color: #0193A2; width: 80%; height: 450px; margin: 20px;">
+    <h2>MMD daysale exepsion</h2>
+    <img src="./food.png" style="margin-left: auto; margin-right: auto; display: block;">
+    <form class="ui form" id="form">
+        <div class="field">
+            <label>Username</label>
+            <input type="text" name="user" placeholder="Username" id="user">
+        </div>
+        <div class="field">
+            <label>Password</label>
+            <input type="text" name="pass" placeholder="Password" id="pass">
+        </div>
+        <div class="field">
+            <label>Priority food(1 or 2)</label>
+            <input id="" type="text" name="priority" placeholder="Priority food(1 or 2)" id="priority">
+        </div>
+        <div id="buttons_container">
+            <button class="ui inverted white button" id="start-sale" type="submit">Start!</button>
+        </div>
+    </form>
+
+
+
+</body>
+
+</html>
+<script src="popup.js"></script>
