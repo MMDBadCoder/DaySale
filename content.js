@@ -58,7 +58,7 @@ function sale_food() {
         if (spans.length === 1) {
             spans[0].click();
         } else {
-            spans[priority - 1].click();
+            spans[(priority - 1) % 2].click();
         }
         return true;
     } else {
